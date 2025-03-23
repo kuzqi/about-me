@@ -401,11 +401,12 @@ footer {
     /* Center the avatar and text vertically */
     backdrop-filter: blur(20px);
     z-index: 1;
+}
 
+.fancy-shape:hover {
     transform: translateY(-5px);
     /* Slightly raise on hover */
     box-shadow: 0 0 20px rgba(8, 199, 142, 0.8), 0 4px 30px rgba(0, 255, 200, 0.5);
-    /* Glowing effect on hover */
 }
 
 .avatar {
