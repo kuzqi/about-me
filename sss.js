@@ -7,10 +7,6 @@ function init() {
     new SmoothScroll(document, 120, 12);
 }
 
-window.onbeforeunload = function() {
-    window.scrollTo(0, 0);
-};
-
 function SmoothScroll(target, speed, smooth) {
     if (target === document)
         target = (document.scrollingElement ||
